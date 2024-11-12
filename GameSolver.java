@@ -12,16 +12,12 @@ public interface GameSolver {
     /**
      * Solves the given game state.
      *
-     * @param game the current game state
      * @return the solution, such as the next move or a winning strategy
      */
     boolean solve();
 
     /**
      * Provides a description of the solution.
-     *
-     * @param solution the solution obtained from the solve method
-     * @return a human-readable explanation of the solution
      */
     void printSolution();
 }
